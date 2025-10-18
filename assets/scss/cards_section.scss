@@ -1,0 +1,119 @@
+.card1{
+    width: var(--width-card-setting);
+    height: 420px;
+    border: var(--color-border-card);
+    border-top:none;
+    border-left: none;
+    transition: 0.2s ease;
+    cursor: pointer;
+    
+}
+
+.card2{
+    width: var(--width-card-setting);
+    height: 420px;
+    border: var(--color-border-card);
+    border-left: none;
+    border-top: none;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.card3{
+    width: var(--width-card-setting);
+    height: 420px;
+    border:var(--color-border-card);
+    border-top: none;
+    border-left: none;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.card4{
+    width:  var(--width-card-setting);
+    height: 420px;
+    border: var(--color-border-card);
+    border-top: none;
+    border-left: none;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.card5{
+    width:  var(--width-card-setting);
+    height: 420px;
+    border: var(--color-border-card);
+    border-top: none;
+    border-left: none;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.card6{
+    width:  var(--width-card-setting);
+    height: 420px;
+    border: var(--color-border-card);
+    border-top: none;
+    border-left: none;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.card7{
+    width:  var(--width-card-setting);
+    height: 420px;
+    border: var(--color-border-card);
+    border-top: none;
+    border-left: none;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.card8{
+    width:  var(--width-card-setting);
+    height: 420px;
+    border: var(--color-border-card);
+    border-top: none;
+    border-left: none;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.card9{
+    width:  var(--width-card-setting);
+    height: 420px;
+    border: var(--color-border-card);
+    border-top: none;
+    border-left: none;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.card9:hover{
+    background-color: var(--hover-background)
+}
+.card8:hover{
+    background-color: var(--hover-background)
+}
+.card7:hover{
+    background-color: var(--hover-background)
+}
+.card6:hover{
+    background-color: var(--hover-background)
+}
+.card5:hover{
+    background-color: var(--hover-background)
+}
+.card4:hover{
+    background-color: var(--hover-background)
+}
+.card3:hover{
+    background-color: var(--hover-background)
+}
+.card2:hover{
+    background-color: var(--hover-background)
+}
+.card1:hover{
+    background-color: var(--hover-background)
+}
+
+.mainContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 40px;
+    padding-top: 20px;
+    padding-left: 100px;
+}

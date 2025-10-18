@@ -1,0 +1,19 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: hsla(0, 0%, 15%, 0.992);
+}
+
+.logoText{
+    font-family: "BBH Sans Bartle", sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.545);
+
+    cursor: pointer;
+    transition: 0.4s ease;
+
+}
+.logoText:hover{
+    color: rgba(0, 0, 0, 0.376);
+}
