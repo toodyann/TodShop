@@ -1,138 +1,144 @@
-.card1 {
-  width: var(--width-card-setting);
-  height: 420px;
-  border: var(--color-border-card);
-  border-top: none;
-  border-left: none;
-  transition: 0.2s ease;
-  cursor: pointer;
+.card1{
+    width: var(--width-card-setting);
+    height: 420px;
+    border: var(--color-border-card);
+    border-top:none;
+    border-left: none;
+    transition: 0.2s ease;
+    cursor: pointer;
 }
-.card2 {
-  width: var(--width-card-setting);
-  height: 420px;
-  border: var(--color-border-card);
-  border-left: none;
-  border-top: none;
-  transition: 0.2s ease;
-  cursor: pointer;
+.card2{
+    width: var(--width-card-setting);
+    height: 420px;
+    border: var(--color-border-card);
+    border-left: none;
+    border-top: none;
+    transition: 0.2s ease;
+    cursor: pointer;
 }
-.card3 {
-  width: var(--width-card-setting);
-  height: 420px;
-  border: var(--color-border-card);
-  border-top: none;
-  border-left: none;
-  transition: 0.2s ease;
-  cursor: pointer;
+.card3{
+    width: var(--width-card-setting);
+    height: 420px;
+    border:var(--color-border-card);
+    border-top: none;
+    border-left: none;
+    transition: 0.2s ease;
+    cursor: pointer;
 }
-.card4 {
-  width: var(--width-card-setting);
-  height: 420px;
-  border: var(--color-border-card);
-  border-top: none;
-  border-left: none;
-  transition: 0.2s ease;
-  cursor: pointer;
+.card4{
+    width:  var(--width-card-setting);
+    height: 420px;
+    border: var(--color-border-card);
+    border-top: none;
+    border-left: none;
+    transition: 0.2s ease;
+    cursor: pointer;
 }
-.card5 {
-  width: var(--width-card-setting);
-  height: 420px;
-  border: var(--color-border-card);
-  border-top: none;
-  border-left: none;
-  transition: 0.2s ease;
-  cursor: pointer;
+.card5{
+    width:  var(--width-card-setting);
+    height: 420px;
+    border: var(--color-border-card);
+    border-top: none;
+    border-left: none;
+    transition: 0.2s ease;
+    cursor: pointer;
 }
-.card6 {
-  width: var(--width-card-setting);
-  height: 420px;
-  border: var(--color-border-card);
-  border-top: none;
-  border-left: none;
-  transition: 0.2s ease;
-  cursor: pointer;
+.card6{
+    width:  var(--width-card-setting);
+    height: 420px;
+    border: var(--color-border-card);
+    border-top: none;
+    border-left: none;
+    transition: 0.2s ease;
+    cursor: pointer;
 }
-.card7 {
-  width: var(--width-card-setting);
-  height: 420px;
-  border: var(--color-border-card);
-  border-top: none;
-  border-left: none;
-  transition: 0.2s ease;
-  cursor: pointer;
+.card7{
+    width:  var(--width-card-setting);
+    height: 420px;
+    border: var(--color-border-card);
+    border-top: none;
+    border-left: none;
+    transition: 0.2s ease;
+    cursor: pointer;
 }
-.card8 {
-  width: var(--width-card-setting);
-  height: 420px;
-  border: var(--color-border-card);
-  border-top: none;
-  border-left: none;
-  transition: 0.2s ease;
-  cursor: pointer;
+.card8{
+    width:  var(--width-card-setting);
+    height: 420px;
+    border: var(--color-border-card);
+    border-top: none;
+    border-left: none;
+    transition: 0.2s ease;
+    cursor: pointer;
 }
-.card9 {
-  width: var(--width-card-setting);
-  height: 420px;
-  border: var(--color-border-card);
-  border-top: none;
-  border-left: none;
-  transition: 0.2s ease;
-  cursor: pointer;
+.card9{
+    width:  var(--width-card-setting);
+    height: 420px;
+    border: var(--color-border-card);
+    border-top: none;
+    border-left: none;
+    transition: 0.2s ease;
+    cursor: pointer;
 }
-.card10 {
-  width: var(--width-card-setting);
-  height: 420px;
-  border: var(--color-border-card);
-  border-top: none;
-  border-left: none;
-  transition: 0.2s ease;
-  cursor: pointer;
+.card10{
+    width:  var(--width-card-setting);
+    height: 420px;
+    border: var(--color-border-card);
+    border-top: none;
+    border-left: none;
+    transition: 0.2s ease;
+    cursor: pointer;
+}     
+.card11{
+    width:  var(--width-card-setting);
+    height: 420px;
+    border: var(--color-border-card);
+    border-top: none;
+    border-left: none;
+    transition: 0.2s ease;
+    cursor: pointer;
+}     
+
+
+    img:hover{
+    opacity: 0.2;
+ 
 }
-.card11 {
-  width: var(--width-card-setting);
-  height: 420px;
-  border: var(--color-border-card);
-  border-top: none;
-  border-left: none;
-  transition: 0.2s ease;
-  cursor: pointer;
+.mainContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-top: 20px;
+    padding-left: 100px;
+    transition: 0,3s ease;
+}
+.mainContainer img:hover{
+    transform: scale(1.05,1.05);
+
+}
+.mainContainer img{
+    position: absolute;
+  
 }
 
-img {
-  transition: transform 0.3s ease;
+
+.text{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding-top : 130px;
+    font-family: "Roboto", sans-serif;
 }
 
-img:hover {
-  opacity: 0.2;
-}
-.mainContainer {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-  padding-top: 20px;
-  padding-left: 100px;
-}
-.mainContainer img {
-  position: absolute;
-}
-
-.text {
-  font-size: 20px;
-  color: #fff;
-  text-align: center;
-  padding-top: 130px;
-  font-family: "Roboto", sans-serif;
-}
-
-.addToList {
-  color: #fff;
-  background-color: #ff0400;
-  border: none;
-  padding: 10px;
-  border-radius: 10px;
-  text-align: center;
-  display: block;
-  margin: 10px auto 0;
-  font-family: "Roboto", sans-serif;
-  cursor: pointer;
+.addToList{
+    color: #fff;
+    background-color: #ff0400;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    margin: 10px auto 0;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    
 }
