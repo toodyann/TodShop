@@ -1,55 +1,52 @@
-.mainHeaderContainer{
-    background-color: rgb(65, 60, 60);
-    height: 6dvb;
-    margin: 10px;
-    border-radius: 100px;
-    border-bottom-right-radius: 100px;
-    border: 2px solid rgba(255, 255, 255, 0.098);
+.mainHeaderContainer {
+  background-color: rgb(65, 60, 60);
+  height: 6dvb;
+  margin: 10px;
+  border-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border: 2px solid rgba(255, 255, 255, 0.098);
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.logo{
-    width:85px;
-    height:55px;
+.logo {
+  width: 85px;
+  height: 55px;
 }
 
+.backetIcon {
+  height: 30px;
+  width: 18px;
+  margin-right: 30px;
 
-.backetIcon{
-    height: 30px;
-    width: 18px;
-    margin-right: 30px;
-
-    cursor: pointer;
-    transition: all 0.3s ease;
-    color: #ffffff;
-
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #ffffff;
 }
-.backetIcon:hover{
-    color: rgb(58, 90, 219);
+.backetIcon:hover {
+  color: rgb(58, 90, 219);
 }
 
-.inputContainer input{
-    background: none;
-    padding: 10px;
-    border-radius: 20px;
-    padding-right: 200px;
-    border: 1px solid rgba(0, 0, 0, 0.36);
-    color: #fff;
+.inputContainer input {
+  background: none;
+  padding: 10px;
+  border-radius: 20px;
+  padding-right: 200px;
+  border: 1px solid rgba(0, 0, 0, 0.36);
+  color: #fff;
 }
 
 .inputContainer button {
-    background: 0;
-    border: 0;
+  background: 0;
+  border: 0;
 
-    transition: all 0.2s ease;
-    cursor: pointer;
-    color:  rgba(255, 255, 255, 0.492);
+  transition: all 0.2s ease;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.492);
 }
 
-.inputContainer button:hover{
-    color: #fff;
+.inputContainer button:hover {
+  color: #fff;
 }
-
