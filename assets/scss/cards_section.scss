@@ -1,135 +1,47 @@
-.card1{
+.card {
     width: var(--width-card-setting);
     height: 420px;
     border: var(--color-border-card);
-    border-top:none;
-    border-left: none;
-    transition: 0.2s ease;
-    cursor: pointer;
-}
-.card2{
-    width: var(--width-card-setting);
-    height: 420px;
-    border: var(--color-border-card);
-    border-left: none;
-    border-top: none;
-    transition: 0.2s ease;
-    cursor: pointer;
-}
-.card3{
-    width: var(--width-card-setting);
-    height: 420px;
-    border:var(--color-border-card);
     border-top: none;
     border-left: none;
     transition: 0.2s ease;
     cursor: pointer;
 }
-.card4{
-    width:  var(--width-card-setting);
-    height: 420px;
-    border: var(--color-border-card);
-    border-top: none;
-    border-left: none;
-    transition: 0.2s ease;
-    cursor: pointer;
-}
-.card5{
-    width:  var(--width-card-setting);
-    height: 420px;
-    border: var(--color-border-card);
-    border-top: none;
-    border-left: none;
-    transition: 0.2s ease;
-    cursor: pointer;
-}
-.card6{
-    width:  var(--width-card-setting);
-    height: 420px;
-    border: var(--color-border-card);
-    border-top: none;
-    border-left: none;
-    transition: 0.2s ease;
-    cursor: pointer;
-}
-.card7{
-    width:  var(--width-card-setting);
-    height: 420px;
-    border: var(--color-border-card);
-    border-top: none;
-    border-left: none;
-    transition: 0.2s ease;
-    cursor: pointer;
-}
-.card8{
-    width:  var(--width-card-setting);
-    height: 420px;
-    border: var(--color-border-card);
-    border-top: none;
-    border-left: none;
-    transition: 0.2s ease;
-    cursor: pointer;
-}
-.card9{
-    width:  var(--width-card-setting);
-    height: 420px;
-    border: var(--color-border-card);
-    border-top: none;
-    border-left: none;
-    transition: 0.2s ease;
-    cursor: pointer;
-}
-.card10{
-    width:  var(--width-card-setting);
-    height: 420px;
-    border: var(--color-border-card);
-    border-top: none;
-    border-left: none;
-    transition: 0.2s ease;
-    cursor: pointer;
-}     
-.card11{
-    width:  var(--width-card-setting);
-    height: 420px;
-    border: var(--color-border-card);
-    border-top: none;
-    border-left: none;
-    transition: 0.2s ease;
-    cursor: pointer;
-}     
 
-
-    img:hover{
+img:hover {
     opacity: 0.2;
- 
+
 }
-.mainContainer{
+
+.mainContainer {
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
     padding-top: 20px;
     padding-left: 100px;
-    transition: 0,3s ease;
+    transition: 0, 3s ease;
 }
-.mainContainer img:hover{
-    transform: scale(1.05,1.05);
+
+.mainContainer img:hover {
+    transform: scale(1.05, 1.05);
 
 }
-.mainContainer img{
+
+.mainContainer img {
     position: absolute;
-  
+
 }
 
 
-.text{
+.text {
     font-size: 20px;
     color: #fff;
     text-align: center;
-    padding-top : 130px;
+    padding-top: 130px;
     font-family: "Roboto", sans-serif;
 }
 
-.addToList{
+.addToList {
     color: #fff;
     background-color: #ff0400;
     border: none;
@@ -140,5 +52,5 @@
     margin: 10px auto 0;
     font-family: "Roboto", sans-serif;
     cursor: pointer;
-    
+
 }
