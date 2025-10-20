@@ -6,6 +6,27 @@
     border-left: none;
     transition: 0.2s ease;
     cursor: pointer;
+    position: absolute;
+
+}
+.text{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding-top : 100px;
+    font-family: "Roboto", sans-serif;
+}
+
+.addToList{
+    color: #fff;
+    background-color: #ff0400;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    margin: 10px auto 0;
+    font-family: "Roboto", sans-serif;
     
 }
 
@@ -83,6 +104,7 @@
 }
 .card9:hover{
     background-color: var(--hover-background)
+
 }
 .card8:hover{
     background-color: var(--hover-background)
@@ -107,8 +129,17 @@
 }
 .card1:hover{
     background-color: var(--hover-background)
+
 }
 
+    img {
+    transition: transform 0.3s ease;
+    }
+  
+    img:hover{
+    opacity: 0.1;
+    transform: scale(1,1);
+}
 .mainContainer{
     display: flex;
     flex-wrap: wrap;
