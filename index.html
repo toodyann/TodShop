@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,29 +17,35 @@
     <link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <section class="header">
         <div class="mainHeaderContainer">
             <div class="logoContainer">
                 <a href="">
-                <img class="logo" src="assets/images/logo.png" alt="logoIcon">
-            </a>
+                    <img class="logo" src="assets/images/logo.png" alt="logoIcon">
+                </a>
             </div>
             <div class="logoText">
                 <p>TodShop</p>
             </div>
             <div class="inputContainer">
-                <input  type="text" placeholder="">
-                <button type="submit" ><svg xmlns="http://www.w3.org/2000/svg" width="26" height="19" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
-                  </svg></button>
+                <input type="text" placeholder="">
+                <button type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="19" fill="currentColor"
+                        class="bi bi-search" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                    </svg></button>
             </div>
 
             <div class="backetIconContainer">
-                <svg class="backetIcon" xmlns="http://www.w3.org/2000/svg" width="16" height="160" fill="currentColor" viewBox="0 0 16 16">
-                    <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM3.394 15l-1.48-6h-.97l1.525 6.426a.75.75 0 0 0 .729.574h9.606a.75.75 0 0 0 .73-.574L15.056 9h-.972l-1.479 6z"/>
+                <svg class="backetIcon" xmlns="http://www.w3.org/2000/svg" width="16" height="160" fill="currentColor"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM3.394 15l-1.48-6h-.97l1.525 6.426a.75.75 0 0 0 .729.574h9.606a.75.75 0 0 0 .73-.574L15.056 9h-.972l-1.479 6z" />
                 </svg>
             </div>
         </div>
@@ -46,99 +53,164 @@
 
     <section class="main">
         <div class="mainContainer">
-            
+
             <div class="card" id="card1">
-                <img class="card1" src="assets/images/Card1.jpg" alt="">
-                <div class="text"><h2>1 LDC</h2></div>
-                    <a href="#">
-                        <button class="add-to-cart">Додати до кошика</button>
-                    </a>
-                <div>
+                <div class="product-container">
+                    <img class="card" src="assets/images/Card1.jpg" alt="">
                 </div>
-            
+                <div class="overlay-container">
+                    <div class="text">
+                        <h2>1 LDC</h2>
+                    </div>
+                    <div>
+                        <button class="add-to-cart">Додати до кошика</button>
+                    </div>
+                </div>
             </div>
 
             <div class="card" id="card2">
-                <img class="card2" src="assets/images/Card2.jpg" alt="">
-                <div class="text"><h2>1 LDC</h2></div>
-                <div>
-                    <button class="add-to-cart">Додати до кошика</button>
+                <div class="product-container">
+                    <img class="card" src="assets/images/Card2.jpg" alt="">
+                </div>
+                <div class="overlay-container">
+                    <div class="text">
+                        <h2>1 LDC</h2>
+                    </div>
+                    <div>
+                        <button class="add-to-cart">Додати до кошика</button>
+                    </div>
                 </div>
             </div>
 
             <div class="card" id="card3">
-                <img class="card3" src="assets/images/Card3.jpg" alt="">
-                <div class="text"><h2>1 LDC</h2></div>
-                <div>
-                    <button class="add-to-cart">Додати до кошика</button>
+                <div class="product-container">
+                    <img class="card" src="assets/images/Card3.jpg" alt="">
+                </div>
+                <div class="overlay-container">
+                    <div class="text">
+                        <h2>1 LDC</h2>
+                    </div>
+                    <div>
+                        <button class="add-to-cart">Додати до кошика</button>
+                    </div>
                 </div>
             </div>
 
             <div class="card" id="card4">
-                <img class="card4" src="assets/images/Card4.jpg" alt="">
-                <div class="text"><h2>1 LDC</h2></div>
-                <div>
-                    <button class="add-to-cart">Додати до кошика</button>
+                <div class="product-container">
+                    <img class="card" src="assets/images/Card4.jpg" alt="">
+                </div>
+                <div class="overlay-container">
+                    <div class="text">
+                        <h2>1 LDC</h2>
+                    </div>
+                    <div>
+                        <button class="add-to-cart">Додати до кошика</button>
+                    </div>
                 </div>
             </div>
-            
+
             <div class="card" id="card5">
-                <img class="card5" src="assets/images/Card5.jpg" alt="">
-                <div class="text"><h2>1 LDC</h2></div>
-                <div>
-                    <button class="add-to-cart">Додати до кошика</button>
+                <div class="product-container">
+                    <img class="card" src="assets/images/Card5.jpg" alt="">
+                </div>
+                <div class="overlay-container">
+                    <div class="text">
+                        <h2>1 LDC</h2>
+                    </div>
+                    <div>
+                        <button class="add-to-cart">Додати до кошика</button>
+                    </div>
                 </div>
             </div>
 
             <div class="card" id="card6">
-                <img class="card6" src="assets/images/Card6.jpg" alt="">
-                <div class="text"><h2>1 LDC</h2></div>
-                <div>
-                    <button class="add-to-cart">Додати до кошика</button>
+                <div class="product-container">
+                    <img class="card" src="assets/images/Card6.jpg" alt="">
+                </div>
+                <div class="overlay-container">
+                    <div class="text">
+                        <h2>1 LDC</h2>
+                    </div>
+                    <div>
+                        <button class="add-to-cart">Додати до кошика</button>
+                    </div>
                 </div>
             </div>
 
             <div class="card" id="card7">
-                <img class="card7" src="assets/images/Card7.jpeg" alt="">
-                <div class="text"><h2>1 LDC</h2></div>
-                <div>
-                    <button class="add-to-cart">Додати до кошика</button>
+                <div class="product-container">
+                    <img class="card" src="assets/images/Card7.jpeg" alt="">
+                </div>
+                <div class="overlay-container">
+                    <div class="text">
+                        <h2>1 LDC</h2>
+                    </div>
+                    <div>
+                        <button class="add-to-cart">Додати до кошика</button>
+                    </div>
                 </div>
             </div>
 
             <div class="card" id="card8">
-                <img class="card8" src="assets/images/Card8.jpg" alt="">
-                <div class="text"><h2>1 LDC</h2></div>
-                <div>
-                    <button class="add-to-cart">Додати до кошика</button>
+                <div class="product-container">
+                    <img class="card" src="assets/images/Card8.jpg" alt="">
+                </div>
+                <div class="overlay-container">
+                    <div class="text">
+                        <h2>1 LDC</h2>
+                    </div>
+                    <div>
+                        <button class="add-to-cart">Додати до кошика</button>
+                    </div>
                 </div>
             </div>
 
             <div class="card" id="card9">
-                <img class="card9" src="assets/images/Card9.jpeg" alt="">
-                <div class="text"><h2>1 LDC</h2></div>
-                <div>
-                    <button class="add-to-cart">Додати до кошика</button>
+                <div class="product-container">
+                    <img class="card" src="assets/images/Card9.jpeg" alt="">
+                </div>
+                <div class="overlay-container">
+                    <div class="text">
+                        <h2>1 LDC</h2>
+                    </div>
+                    <div>
+                        <button class="add-to-cart">Додати до кошика</button>
+                    </div>
                 </div>
             </div>
 
             <div class="card" id="card10">
-                <img class="card10" src="assets/images/Card10.avif" alt="">
-                <div class="text"><h2>1 LDC</h2></div>
-                <div>
-                    <button class="add-to-cart">Додати до кошика</button>
+                <div class="product-container">
+                    <img class="card" src="assets/images/Card10.avif" alt="">
                 </div>
-
-            <div class="card" id="card11">
-                <img class="card11" src="assets/images/Card11.jpg" alt="">
-                <div class="text"><h2>1 LDC</h2></div>
-                <div>
-                    <button class="add-to-cart">Додати до кошика</button>
+                <div class="overlay-container">
+                    <div class="text">
+                        <h2>1 LDC</h2>
+                    </div>
+                    <div>
+                        <button class="add-to-cart">Додати до кошика</button>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <script src="src/main.js"></script>
+            <div class="card" id="card11">
+                <div class="product-container">
+                    <img class="card" src="assets/images/Card11.jpg" alt="">
+                </div>
+                <div class="overlay-container">
+                    <div class="text">
+                        <h2>1 LDC</h2>
+                    </div>
+                    <div>
+                        <button class="add-to-cart">Додати до кошика</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <script src="src/main.js"></script>
 </body>
+
 </html>

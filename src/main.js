@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     addToCartButtons.forEach(button => {
         button.addEventListener('click', (event) => {
+          console.log('Button clicked');
             event.preventDefault();
             const cardContainer = button.closest('.card');
             const cardId = cardContainer ? cardContainer.id : 'No ID found';
