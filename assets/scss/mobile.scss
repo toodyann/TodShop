@@ -6,6 +6,9 @@
     .logoText{
         text-align: center;
     }
+    .logo{
+        height: 40px;
+    }
     .backetIcon{
         padding-left: 15px;
     }
@@ -18,5 +21,21 @@
         transform: none;
     }
 
+}
+
+
+// overlay card settings
+
+@media screen and (max-width:500px) {
+    .icon-container button{
+        display: flex;
+
+        background: none;
+        border: none;
+        color: rgb(232, 12, 12);
+    }
+    .add-to-cart{
+        display: none;
+    }
 }
 
