@@ -23,3 +23,15 @@ body {
     color: #ffffffa4;
     text-align: center;
 }
+
+.banner{
+    position:fixed; 
+    width: 220px;  
+    height: 150px;
+    z-index: 9999;
+    bottom: -30px;
+    right: -45px;
+    pointer-events: none;
+    transform: rotate(-30deg)
+    
+}
