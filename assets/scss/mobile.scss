@@ -1,0 +1,22 @@
+//header section
+@media screen and (max-width:500px) {
+    .inputContainer{
+        display: none;
+    }
+    .logoText{
+        text-align: center;
+    }
+    .backetIcon{
+        padding-left: 15px;
+    }
+    .mainContainer{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .card:hover{
+        transform: none;
+    }
+
+}
+

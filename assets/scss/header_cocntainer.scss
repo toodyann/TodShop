@@ -12,7 +12,6 @@
 }
 
 .logo {
-  width: 85px;
   height: 55px;
 }
 
@@ -22,11 +21,11 @@
   margin-right: 30px;
 
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.1s ease;
   color: #ffffff;
 }
 .backetIcon:hover {
-  color: rgb(58, 90, 219);
+  color: rgb(166, 168, 176);
 }
 
 .inputContainer input {
