@@ -1,8 +1,6 @@
 //header section
-@media screen and (max-width:500px) {
-    .inputContainer{
-        display: none;
-    }
+@media screen and (max-width:1500px) {
+   
     .logoText{
         text-align: center;
     }
@@ -20,13 +18,16 @@
     .card:hover{
         transform: none;
     }
+    .inputContainer input{
+        padding-right: 0;
+    }
 
 }
 
 
 // overlay card settings
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:600px) {
     .icon-container button{
         display: flex;
 
@@ -37,5 +38,14 @@
     .add-to-cart{
         display: none;
     }
+    .text{
+        margin-bottom: 0;
+    }
 }
 
+@media screen and (max-width:600px) {
+
+    .inputContainer{
+        display: none;
+    }
+}
