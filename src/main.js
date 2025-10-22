@@ -1,32 +1,18 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const addToCartButtons = document.querySelectorAll('.add-to-cart');
-
-    addToCartButtons.forEach(button => {
-        button.addEventListener('click', (event) => {
-          console.log('Button clicked');
-            event.preventDefault();
-            const cardContainer = button.closest('.card');
-            const cardId = cardContainer ? cardContainer.id : 'No ID found';
-            
-            alert(`До кошика додано елемент: ${cardId}`);
-        });
-    });
-});
-
-
 const backetMenu = document.querySelector(".backetMenu");
-const backetIcon = document.querySelector(".backetIcon");
+const backetButton = document.querySelector(".backetIcon");
+const addButton = document.querySelector(".add-to-cart");
+const item = document.querySelector(".product-container");
 
 backetMenu.style.display = "none";
 
-backetIcon.addEventListener('click', () => {
+let inbacketMenu = false;
+
+backetButton.addEventListener('click', () => {
     if (backetMenu.style.display === 'none') {
       backetMenu.style.display = 'inline';
     } else {
       backetMenu.style.display = 'none';
     }
   });
-
-
 
 
