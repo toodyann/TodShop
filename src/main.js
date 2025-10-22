@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const addToCartButtons = document.querySelectorAll('.add-to-cart');
-    
+
     addToCartButtons.forEach(button => {
         button.addEventListener('click', (event) => {
           console.log('Button clicked');
@@ -12,4 +12,33 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+
+const backetMenu = document.querySelector(".backetMenu");
+const backetIcon = document.querySelector(".backetIcon");
+
+backetMenu.style.display = "none";
+
+const addMenu = () => {
+    backetMenu.style.display = "inline";
+}
+
+const removeMenu = () => {
+    backetMenu.style.display = "none";
+}
+
+const onBacketIconClick = () => {
+    addMenu();
+}
+
+backetIcon.addEventListener('click', () => {
+    if (backetMenu.style.display === 'none') {
+      backetMenu.style.display = 'block';
+    } else {
+      backetMenu.style.display = 'none';
+    }
+  });
+
+
+
 
