@@ -7,7 +7,7 @@ body {
 
 .logoText {
   font-family: "BBH Sans Bartle", sans-serif;
-  font-size: 28px;
+  font-size: clamp(19px, 4vw, 30px);
   font-weight: 800;
   color: rgba(211, 37, 37, 0.629);
   text-decoration: underline;
