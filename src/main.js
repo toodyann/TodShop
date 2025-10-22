@@ -19,18 +19,6 @@ const backetIcon = document.querySelector(".backetIcon");
 
 backetMenu.style.display = "none";
 
-const addMenu = () => {
-    backetMenu.style.display = "inline";
-}
-
-const removeMenu = () => {
-    backetMenu.style.display = "none";
-}
-
-const onBacketIconClick = () => {
-    addMenu();
-}
-
 backetIcon.addEventListener('click', () => {
     if (backetMenu.style.display === 'none') {
       backetMenu.style.display = 'inline';
