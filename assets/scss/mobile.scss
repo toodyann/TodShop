@@ -19,7 +19,7 @@
         transform: none;
     }
     .inputContainer input{
-        padding-right: 0;
+        width: 10vw;
     }
 
 }
@@ -43,7 +43,7 @@
     }
 }
 
-@media screen and (max-width:630px) {
+@media screen and (max-width:750px) {
 
     .inputContainer{
         display: none;
