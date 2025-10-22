@@ -33,7 +33,7 @@ const onBacketIconClick = () => {
 
 backetIcon.addEventListener('click', () => {
     if (backetMenu.style.display === 'none') {
-      backetMenu.style.display = 'block';
+      backetMenu.style.display = 'inline';
     } else {
       backetMenu.style.display = 'none';
     }
