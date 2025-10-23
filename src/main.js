@@ -1,11 +1,12 @@
 const backetMenu = document.querySelector(".backetMenu");
 const backetButton = document.querySelector(".backetIcon");
 const addButton = document.querySelector(".add-to-cart");
-const item = document.querySelector(".product-container");
+const item = document.getElementById("test");
 
 backetMenu.style.display = "none";
 
 let inbacketMenu = false;
+
 
 backetButton.addEventListener('click', () => {
     if (backetMenu.style.display === 'none') {
@@ -16,3 +17,11 @@ backetButton.addEventListener('click', () => {
   });
 
 
+  addButton.addEventListener('click', () => {
+    const copy = item.cloneNode(true);
+    copy.classList.add('card_settings');
+    backetMenu.appendChild(copy);
+    
+  });
+  
+  

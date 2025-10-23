@@ -1,0 +1,26 @@
+.card_settings{
+    width: 130px;
+    height: 130px;
+    margin: 40px;
+    padding: 10px 0px 40px 10px;
+    pointer-events: none;
+}
+
+.buyAllItems{
+    cursor: pointer;
+    background: #fff;
+    color: #383535;
+    border: 1px solid #000;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+
+    position: fixed;
+    padding: 15px;
+    width: 400px;
+    bottom: 120px; /* відступ від низу */
+    left: 1005px;
+}
+.buyAllItems:hover{
+    background-color: #ed2222;
+    color: #fff;
+}
