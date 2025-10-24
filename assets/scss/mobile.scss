@@ -1,0 +1,36 @@
+//header section
+@media screen and (max-width: 1300px) {
+  .logoText {
+    text-align: center;
+  }
+  .logo {
+    height: 40px;
+  }
+
+  .mainContainer {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .card:hover {
+    transform: none;
+  }
+  .inputContainer input {
+    width: 20vw;
+  }
+  .backetMenu {
+    bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .inputContainer {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .icon-container button {
+    display: none;
+  }
+}
