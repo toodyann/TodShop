@@ -30,12 +30,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const price = Number(card.dataset.price) || 0;
       total += price;
-      totalPriceBox.textContent = "Total: " + total + " LTC";
+      totalPriceBox.textContent = "Сума: " + total + " LDC";
 
       const copy = card.cloneNode(true);
       copy.classList.add("card_settings");
+
+      const addBtnClone = copy.querySelector(".add-to-cart");
+      if (addBtnClone) addBtnClone.remove();
+      
       backetMenu.appendChild(copy);
+      });
     });
   });
-});
-

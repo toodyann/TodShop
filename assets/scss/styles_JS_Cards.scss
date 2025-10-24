@@ -4,7 +4,7 @@
   height: 100px;
   position: fixed;
   z-index: 9999;
-  bottom: 7vw;
+  bottom: 12vw;
   right: 15px;
   background-color: rgb(42, 42, 42);
   width: 650px;
@@ -39,7 +39,7 @@
 .buyAllItems {
   position: fixed;
   z-index: 9999999;
-  bottom: 30px;
+  bottom: 120px;
   right: 220px;
 
   cursor: pointer;
@@ -64,7 +64,7 @@
 .backetWindowWrapper {
   position: fixed;
   z-index: 999;
-  bottom: 15px;
+  bottom: 6vw;
   right: 5px;
   background-color: #272323;
   box-shadow: 0 0 20px hsla(0, 11%, 24%, 0.38);
@@ -80,7 +80,7 @@
 
   position: fixed;
   z-index: 99999;
-  bottom: 71px;
+  bottom: 165px;
   right: 120px;
   color: #fff;
 
