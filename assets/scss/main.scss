@@ -18,45 +18,20 @@ body {
   color: rgba(0, 0, 0, 0.376);
 }
 
-.nameGame{
-    font-family: 'Roboto';
-    color: #ffffffa4;
-    text-align: center;
+.nameGame {
+  font-family: "Roboto";
+  color: #ffffffa4;
+  text-align: center;
 }
 
-.banner{
-    position:fixed; 
-    width: 220px;  
-    height: 150px;
-    z-index: 9999;
-    bottom: -30px;
-    right: -45px;
-    pointer-events: none;
-    transform: rotate(-30deg);
-    user-select: none;
-    
-}
-
-.backetMenu{
-    position: fixed;
-    z-index: 9999;
-    bottom: 55px;
-    right: 15px;
-    background-color: rgb(27, 28, 28);
-    width: 650px;
-    height: 650px;
-    border-radius: 40px;
-    box-shadow: 0 0 20px #504042;
-    overflow-y: auto;
-    margin-bottom:30px;
-}
-
-
-.arrow{
-  color: #fff;
+.banner {
   position: fixed;
-  z-index: 9999;
-  bottom: 10px;
-  right: 3px;
+  width: 220px;
+  height: 150px;
+  z-index: 999;
+  bottom: -30px;
+  right: -45px;
+  pointer-events: none;
+  transform: rotate(-30deg);
+  user-select: none;
 }
-

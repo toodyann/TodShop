@@ -5,7 +5,6 @@
     border-top: none;
     border-left: none;
     transition: 0.2s ease;
-    cursor: pointer;
     position: relative;
     margin-bottom: 30px;
     user-select: none;
@@ -51,10 +50,10 @@
 
 .mainContainer {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 40px;
     padding-top: 20px;
-    padding-left: 100px;
     transition: 0.3s ease;
     padding-top: 50px;
 }
