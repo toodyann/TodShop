@@ -19,24 +19,28 @@
   margin-bottom: 10px;
 }
 .card_settings {
-  display: flex;
-  gap: 30px;
+  flex-direction: row;
+  
+  align-items: center;
+  gap: 10px;
   width: 250px;
-  height: 120px;
+  height: 150px;
   padding: 10px 0px 40px 10px;
   margin: 15px;
   pointer-events: none;
   border: none;
+
+
 }
 
-.buyAllItemsWrapper{
+.buyAllItemsWrapper {
   position: relative;
 }
 .buyAllItems {
   position: fixed;
   z-index: 9999999;
   bottom: 30px;
-  right: 103px;
+  right: 220px;
 
   cursor: pointer;
   background: #fff;
@@ -48,30 +52,36 @@
   padding: 15px;
   width: 400px;
   margin: 30px;
-  box-shadow: 0 0 20px #ffffffc8;
-
+  box-shadow: 0 0 20px #ffffff61;
 }
 
 .buyAllItems:hover {
   background-color: #ed2222;
+  box-shadow: 0 0 20px #c6161661;
   color: #fff;
 }
 
-.arrow {
-  color: #fff;
-  position: fixed;
-  z-index: 9999;
-  bottom: 10px;
-  right: -2px;
-}
-
-.backetWindowWrapper{
+.backetWindowWrapper {
   position: fixed;
   z-index: 999;
   bottom: 15px;
   right: 5px;
   background-color: #272323;
+  box-shadow: 0 0 20px hsla(0, 11%, 24%, 0.38);
   border-radius: 50px;
   width: 670px;
   height: 790px;
+}
+
+
+#totalPrice{
+  font-family: 'Roboto';
+
+
+  position: fixed;
+  z-index: 99999;
+  bottom: 71px;
+  right: 120px;
+  color: #fff;
+
 }
