@@ -5,7 +5,7 @@ body {
   background-color: hsla(0, 0%, 15%, 0.992);
 }
 
-.logoText {
+.logo-text {
   font-family: "BBH Sans Bartle", sans-serif;
   font-size: clamp(22px, 4vw, 30px);
   font-weight: 800;
@@ -14,7 +14,7 @@ body {
   cursor: pointer;
   transition: 0.4s ease;
 }
-.logoText:hover {
+.logo-text:hover {
   color: rgba(0, 0, 0, 0.376);
 }
 

@@ -1,13 +1,13 @@
 //header section
 @media screen and (max-width: 1300px) {
-  .logoText {
+  .logo-text {
     text-align: center;
   }
   .logo {
     height: 40px;
   }
 
-  .mainContainer {
+  .main-container {
     padding: 0;
     display: flex;
     justify-content: center;
@@ -18,7 +18,7 @@
   .inputContainer input {
     width: 20vw;
   }
-  .backetMenu {
+  .cart-menu {
     bottom: 100px;
   }
 }
