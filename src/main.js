@@ -37,8 +37,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const addBtnClone = copy.querySelector(".add-to-cart");
       if (addBtnClone) addBtnClone.remove();
-      
+
       backetMenu.appendChild(copy);
-      });
     });
   });
+});

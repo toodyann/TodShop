@@ -4,7 +4,7 @@
   height: 100px;
   position: fixed;
   z-index: 9999;
-  bottom: 12vw;
+  bottom: 3vw;
   right: 15px;
   background-color: rgb(42, 42, 42);
   width: 650px;
@@ -20,17 +20,15 @@
 }
 .card_settings {
   flex-direction: row;
-  
+
   align-items: center;
   gap: 10px;
-  width: 250px;
+  width: 295px;
   height: 150px;
   padding: 10px 0px 40px 10px;
   margin: 15px;
   pointer-events: none;
   border: none;
-
-
 }
 
 .buyAllItemsWrapper {
@@ -39,7 +37,7 @@
 .buyAllItems {
   position: fixed;
   z-index: 9999999;
-  bottom: 120px;
+  bottom: -15px;
   right: 220px;
 
   cursor: pointer;
@@ -64,24 +62,21 @@
 .backetWindowWrapper {
   position: fixed;
   z-index: 999;
-  bottom: 6vw;
+  bottom: 0px;
   right: 5px;
   background-color: #272323;
   box-shadow: 0 0 20px hsla(0, 11%, 24%, 0.38);
   border-radius: 50px;
   width: 670px;
-  height: 790px;
+  height: 730px;
 }
 
-
-#totalPrice{
-  font-family: 'Roboto';
-
+#totalPrice {
+  font-family: "Roboto";
+  color: #fff;
 
   position: fixed;
   z-index: 99999;
-  bottom: 165px;
+  bottom: 30px;
   right: 120px;
-  color: #fff;
-
 }
