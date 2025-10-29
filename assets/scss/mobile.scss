@@ -18,14 +18,15 @@
   .inputContainer input {
     width: 20vw;
   }
-  .backetMenu {
-    bottom: 100px;
-  }
+
 }
 
 @media screen and (max-width: 750px) {
   .inputContainer {
     display: none;
+  }
+  .backetMenu {
+    width: 365px;
   }
 }
 
@@ -33,4 +34,5 @@
   .icon-container button {
     display: none;
   }
+  
 }
