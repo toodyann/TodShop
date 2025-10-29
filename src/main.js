@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const card = button.closest(".card");
       if (!card) return;
 
-      const price = Number(card.dataset.price) || 0;
+      const price = +(card.dataset.price) || 0;
       total += price;
       totalPriceBox.textContent = "Сума: " + total + " LDC";
 
@@ -38,6 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const addBtnClone = copy.querySelector(".add-to-cart");
       if (addBtnClone) addBtnClone.remove();
 
+      backetMenu.appendChild(copy);
       backetMenu.appendChild(copy);
     });
   });
