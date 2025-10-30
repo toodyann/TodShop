@@ -1,0 +1,22 @@
+export const productsData = [
+  { id: 1, name: "Need For Speed 2015", price: 101, image: "Card1.jpg" },
+  { id: 2, name: "Dota 2", price: 3, image: "Card2.jpg" },
+  { id: 3, name: "Grand Theft Auto VI", price: 12, image: "Card3.jpg" },
+  { id: 4, name: "Forza Horizon 5", price: 61, image: "Card4.jpg" },
+  { id: 5, name: "DOOM", price: 2, image: "Card5.jpg" },
+  { id: 6, name: "Terraria", price: 52, image: "Card6.jpg" },
+  { id: 7, name: "The Crew 2", price: 991, image: "Card7.jpeg" },
+  { id: 8, name: "FarCry 3", price: 666, image: "Card8.jpg" },
+  { id: 9, name: "Cyberpunk 2077", price: 808, image: "Card9.jpeg" },
+  { id: 10, name: "Red Dead Redemption 2", price: 444, image: "Card10.jpg" },
+  { id: 11, name: "Mafia II", price: 111, image: "Card11.jpg" },
+  { id: 12, name: "Grand Theft Auto San Andreas", price: 123, image: "Card12.webp" },
+  { id: 13, name: "Detroit", price: 13, image: "Card13.jpg" },
+  { id: 14, name: "S.T.A.L.K.E.R", price: 0, image: "Card14.jpg" },
+  { id: 15, name: "Minecraft", price: 0, image: "Card15.png" },
+  { id: 16, name: "FC 26", price: 999, image: "Card16.jpeg" },
+  { id: 17, name: "Far Cry Primal", price: 6, image: "Card17.jpg" },
+  { id: 18, name: "Dying Light", price: 9, image: "Card18.jpg" },
+  { id: 19, name: "PayDay 3", price: 777, image: "Card19.jpg" },
+  { id: 20, name: "Borderlans 4", price: 22, image: "Card20.jpg" }
+];
