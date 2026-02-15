@@ -7,7 +7,7 @@ body {
 
 .logoText {
   font-family: "BBH Sans Bartle", sans-serif;
-  font-size: 28px;
+  font-size: clamp(22px, 4vw, 30px);
   font-weight: 800;
   color: rgba(211, 37, 37, 0.629);
   text-decoration: underline;
@@ -16,4 +16,22 @@ body {
 }
 .logoText:hover {
   color: rgba(0, 0, 0, 0.376);
+}
+
+.nameGame {
+  font-family: "Roboto";
+  color: #ffffffa4;
+  text-align: center;
+}
+
+.banner {
+  position: fixed;
+  width: 220px;
+  height: 150px;
+  z-index: 999;
+  bottom: -30px;
+  right: -45px;
+  pointer-events: none;
+  transform: rotate(-30deg);
+  user-select: none;
 }
